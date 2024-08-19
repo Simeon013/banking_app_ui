@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
 
 class TransactionModel {
-  String? name;
-  String? avatar;
-  String? currentBalance;
-  String? month;
-  String? changePercentageIndicator;
-  String? changePercentage;
+  String name;
+  String avatar;
+  String currentBalance;
+  String month;
+  String changePercentageIndicator;
+  String changePercentage;
   Color? color;
 
   TransactionModel({
-    this.avatar,
-    this.changePercentage,
-    this.changePercentageIndicator,
-    this.currentBalance,
-    this.month,
-    this.name,
-    this.color,
+    required this.avatar,
+    required this.changePercentage,
+    required this.changePercentageIndicator,
+    required this.currentBalance,
+    required this.month,
+    required this.name,
+    required this.color,
   });
 }
 
